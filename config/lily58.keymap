@@ -72,7 +72,7 @@
     &trans    &mkp LCLK &trans    &mmv MOVE_UP    &trans          &msc SCRL_UP                 &mkp LCLK       &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP    &trans
     &trans    &mkp RCLK &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &msc SCRL_DOWN           &mkp RCLK       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans
     &trans    &trans    &trans    &trans          &trans          &trans    &trans   &trans    &trans          &trans          &trans          &trans           &trans    &trans
-                               &trans  &trans  &trans            &mkp LCLK  &mkp RCLK    &trans          &trans          &trans
+                               &trans  &trans  &trans            &mkp LCLK  &mkp RCLK    &mkp LCLK          &trans          &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
